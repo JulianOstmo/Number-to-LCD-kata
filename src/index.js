@@ -45,19 +45,6 @@ const numberToLCD = (input) => {
   );
 
   return output.join('\n');
-
-  // const [FIRST_DIGIT_TOP, FIRST_DIGIT_MID, FIRST_DIGIT_BOTTOM] = LCD_NUMBER[
-  //   firstDigit
-  // ];
-  // const [SECOND_DIGIT_TOP, SECOND_DIGIT_MID, SECOND_DIGIT_BOTTOM] = LCD_NUMBER[
-  //   secondDigit
-  // ];
-
-  // return [
-  //   FIRST_DIGIT_TOP + SECOND_DIGIT_TOP,
-  //   FIRST_DIGIT_MID + SECOND_DIGIT_MID,
-  //   FIRST_DIGIT_BOTTOM + SECOND_DIGIT_BOTTOM,
-  // ].join('\n');
 };
 
 module.exports = {
